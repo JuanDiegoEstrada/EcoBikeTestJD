@@ -18,7 +18,7 @@ class NavigationRouter: ObservableObject {
         func hash(into hasher: inout Hasher) {
             hasher.combine(ObjectIdentifier(NavigationRouter.Destination.self))
         }
-        
+        case start
         case login
         case register
         case homelist

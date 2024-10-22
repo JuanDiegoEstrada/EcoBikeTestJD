@@ -23,14 +23,22 @@ struct HomeBikeListView: View {
                         navigationRouter.navigate(to: .detail(model: station))
                     }
             }
+            Button("Cerrar Sesión"){
+                SessionUserDefaults.isSession = false
+                navigationRouter.navigationRoot()
+            }
+            .padding()
+            .background(Color.yellow)
+            .foregroundStyle(.blue)
+            .cornerRadius(15)
+            .onAppear {
+                Task {
+                    await viewModel.fetchGetStation()
+                }
+            }
         }
         
         .navigationBarBackButtonHidden(true)
-        .onAppear {
-            Task {
-                await viewModel.fetchGetStation()
-            }
-        }
     }
 }
 

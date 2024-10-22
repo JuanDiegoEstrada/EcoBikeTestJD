@@ -26,9 +26,17 @@ struct EcoBikeTestJDApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack(path: $navigationRouter.navPath) {
-                ContentView()
+                Group {
+                    if SessionUserDefaults.isSession {
+                        HomeBikeListView()
+                    } else {
+                        ContentView()
+                    }
+                }
                     .navigationDestination(for: NavigationRouter.Destination.self) { destination in
                         switch destination {
+                        case .start:
+                            ContentView()
                         case .login:
                             LoginView()
                         case .register:

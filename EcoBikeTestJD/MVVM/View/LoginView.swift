@@ -79,7 +79,8 @@ struct LoginView: View {
     
     private func loginFirebase(){
         Auth.auth().signIn(withEmail: userName, password: password) { (result, error) in
-            if let result = result, error == nil {
+            if let _ = result, error == nil {
+                SessionUserDefaults.isSession = true
                 navigationRouter.navigate(to: .homelist)
             } else {
                 showAlertLogin = true

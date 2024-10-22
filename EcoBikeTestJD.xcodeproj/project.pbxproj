@@ -16,6 +16,8 @@
 		B20E59EA2CC7EE8B003F9EC2 /* StationItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E59E92CC7EE8B003F9EC2 /* StationItemView.swift */; };
 		B20E59EC2CC7F13C003F9EC2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E59EB2CC7F13C003F9EC2 /* MapView.swift */; };
 		B20E59EF2CC80CFF003F9EC2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B20E59EE2CC80CFF003F9EC2 /* FirebaseAuth */; };
+		B20E59F22CC81E53003F9EC2 /* GenericUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E59F12CC81E53003F9EC2 /* GenericUserDefaults.swift */; };
+		B20E59F42CC81E79003F9EC2 /* SessionUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E59F32CC81E79003F9EC2 /* SessionUserDefaults.swift */; };
 		B213419C2CC6E140001B2943 /* EcoBikeTestJDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213419B2CC6E140001B2943 /* EcoBikeTestJDApp.swift */; };
 		B213419E2CC6E140001B2943 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213419D2CC6E140001B2943 /* ContentView.swift */; };
 		B21341A02CC6E142001B2943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B213419F2CC6E142001B2943 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 		B20E59E62CC763BF003F9EC2 /* StationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsViewModel.swift; sourceTree = "<group>"; };
 		B20E59E92CC7EE8B003F9EC2 /* StationItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationItemView.swift; sourceTree = "<group>"; };
 		B20E59EB2CC7F13C003F9EC2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B20E59F12CC81E53003F9EC2 /* GenericUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericUserDefaults.swift; sourceTree = "<group>"; };
+		B20E59F32CC81E79003F9EC2 /* SessionUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionUserDefaults.swift; sourceTree = "<group>"; };
 		B21341982CC6E140001B2943 /* EcoBikeTestJD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoBikeTestJD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B213419B2CC6E140001B2943 /* EcoBikeTestJDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoBikeTestJDApp.swift; sourceTree = "<group>"; };
 		B213419D2CC6E140001B2943 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +82,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B20E59F02CC81E0B003F9EC2 /* LocalData */ = {
+			isa = PBXGroup;
+			children = (
+				B20E59F12CC81E53003F9EC2 /* GenericUserDefaults.swift */,
+				B20E59F32CC81E79003F9EC2 /* SessionUserDefaults.swift */,
+			);
+			path = LocalData;
+			sourceTree = "<group>";
+		};
 		B213418F2CC6E140001B2943 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +111,7 @@
 		B213419A2CC6E140001B2943 /* EcoBikeTestJD */ = {
 			isa = PBXGroup;
 			children = (
+				B20E59F02CC81E0B003F9EC2 /* LocalData */,
 				B21341BB2CC71726001B2943 /* GoogleService-Info.plist */,
 				B21341B02CC6FF1F001B2943 /* Router */,
 				B21341AF2CC6E78A001B2943 /* Resources */,
@@ -273,6 +287,7 @@
 				B20E59DF2CC74FAE003F9EC2 /* StationModel.swift in Sources */,
 				B213419E2CC6E140001B2943 /* ContentView.swift in Sources */,
 				B20E59E72CC763BF003F9EC2 /* StationsViewModel.swift in Sources */,
+				B20E59F22CC81E53003F9EC2 /* GenericUserDefaults.swift in Sources */,
 				B20E59E52CC75BA0003F9EC2 /* RequestService.swift in Sources */,
 				B213419C2CC6E140001B2943 /* EcoBikeTestJDApp.swift in Sources */,
 				B20E59EC2CC7F13C003F9EC2 /* MapView.swift in Sources */,
@@ -282,6 +297,7 @@
 				B20E59E12CC75AB5003F9EC2 /* FetchError.swift in Sources */,
 				B21341B42CC707EB001B2943 /* LoginView.swift in Sources */,
 				B21341B22CC6FFA8001B2943 /* NavigationRouter.swift in Sources */,
+				B20E59F42CC81E79003F9EC2 /* SessionUserDefaults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

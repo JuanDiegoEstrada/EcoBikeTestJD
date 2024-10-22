@@ -72,7 +72,8 @@ struct NewUserView: View {
     
     private func authFirebase(){
         Auth.auth().createUser(withEmail: userName, password: password) {(result, error) in
-            if let result = result, error == nil {
+            if let _ = result, error == nil {
+                SessionUserDefaults.isSession = true
                 navigationRouter.navigate(to: .homelist)
             } else {
                 showAlertAuth = true
