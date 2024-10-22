@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B20E59D12CC72980003F9EC2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B20E59D02CC72980003F9EC2 /* FirebaseAnalytics */; };
+		B20E59DF2CC74FAE003F9EC2 /* StationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E59DE2CC74FAE003F9EC2 /* StationModel.swift */; };
+		B20E59E12CC75AB5003F9EC2 /* FetchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E59E02CC75AB5003F9EC2 /* FetchError.swift */; };
+		B20E59E32CC75B3F003F9EC2 /* ServiceNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E59E22CC75B3F003F9EC2 /* ServiceNetwork.swift */; };
+		B20E59E52CC75BA0003F9EC2 /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E59E42CC75BA0003F9EC2 /* RequestService.swift */; };
+		B20E59E72CC763BF003F9EC2 /* StationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E59E62CC763BF003F9EC2 /* StationsViewModel.swift */; };
+		B20E59EA2CC7EE8B003F9EC2 /* StationItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E59E92CC7EE8B003F9EC2 /* StationItemView.swift */; };
+		B20E59EC2CC7F13C003F9EC2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E59EB2CC7F13C003F9EC2 /* MapView.swift */; };
+		B20E59EF2CC80CFF003F9EC2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B20E59EE2CC80CFF003F9EC2 /* FirebaseAuth */; };
 		B213419C2CC6E140001B2943 /* EcoBikeTestJDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213419B2CC6E140001B2943 /* EcoBikeTestJDApp.swift */; };
 		B213419E2CC6E140001B2943 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213419D2CC6E140001B2943 /* ContentView.swift */; };
 		B21341A02CC6E142001B2943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B213419F2CC6E142001B2943 /* Assets.xcassets */; };
 		B21341A32CC6E142001B2943 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B21341A22CC6E142001B2943 /* Preview Assets.xcassets */; };
+		B21341B22CC6FFA8001B2943 /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21341B12CC6FFA8001B2943 /* NavigationRouter.swift */; };
+		B21341B42CC707EB001B2943 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21341B32CC707EB001B2943 /* LoginView.swift */; };
+		B21341B62CC70813001B2943 /* NewUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21341B52CC70813001B2943 /* NewUserView.swift */; };
+		B21341B82CC70835001B2943 /* HomeBikeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21341B72CC70835001B2943 /* HomeBikeListView.swift */; };
+		B21341BA2CC7085A001B2943 /* DetailBikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21341B92CC7085A001B2943 /* DetailBikeView.swift */; };
+		B21341BC2CC71726001B2943 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B21341BB2CC71726001B2943 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B20E59DE2CC74FAE003F9EC2 /* StationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationModel.swift; sourceTree = "<group>"; };
+		B20E59E02CC75AB5003F9EC2 /* FetchError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchError.swift; sourceTree = "<group>"; };
+		B20E59E22CC75B3F003F9EC2 /* ServiceNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceNetwork.swift; sourceTree = "<group>"; };
+		B20E59E42CC75BA0003F9EC2 /* RequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
+		B20E59E62CC763BF003F9EC2 /* StationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsViewModel.swift; sourceTree = "<group>"; };
+		B20E59E92CC7EE8B003F9EC2 /* StationItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationItemView.swift; sourceTree = "<group>"; };
+		B20E59EB2CC7F13C003F9EC2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		B21341982CC6E140001B2943 /* EcoBikeTestJD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoBikeTestJD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B213419B2CC6E140001B2943 /* EcoBikeTestJDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoBikeTestJDApp.swift; sourceTree = "<group>"; };
 		B213419D2CC6E140001B2943 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B213419F2CC6E142001B2943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B21341A22CC6E142001B2943 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B21341B12CC6FFA8001B2943 /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
+		B21341B32CC707EB001B2943 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B21341B52CC70813001B2943 /* NewUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserView.swift; sourceTree = "<group>"; };
+		B21341B72CC70835001B2943 /* HomeBikeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBikeListView.swift; sourceTree = "<group>"; };
+		B21341B92CC7085A001B2943 /* DetailBikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBikeView.swift; sourceTree = "<group>"; };
+		B21341BB2CC71726001B2943 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +54,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B20E59D12CC72980003F9EC2 /* FirebaseAnalytics in Frameworks */,
+				B20E59EF2CC80CFF003F9EC2 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B20E59E82CC7EE56003F9EC2 /* ItemsView */ = {
+			isa = PBXGroup;
+			children = (
+				B20E59E92CC7EE8B003F9EC2 /* StationItemView.swift */,
+				B20E59EB2CC7F13C003F9EC2 /* MapView.swift */,
+			);
+			path = ItemsView;
+			sourceTree = "<group>";
+		};
+		B20E59ED2CC80CFF003F9EC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B213418F2CC6E140001B2943 = {
 			isa = PBXGroup;
 			children = (
 				B213419A2CC6E140001B2943 /* EcoBikeTestJD */,
 				B21341992CC6E140001B2943 /* Products */,
+				B20E59ED2CC80CFF003F9EC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +98,12 @@
 		B213419A2CC6E140001B2943 /* EcoBikeTestJD */ = {
 			isa = PBXGroup;
 			children = (
-				B213419B2CC6E140001B2943 /* EcoBikeTestJDApp.swift */,
-				B213419D2CC6E140001B2943 /* ContentView.swift */,
-				B213419F2CC6E142001B2943 /* Assets.xcassets */,
-				B21341A12CC6E142001B2943 /* Preview Content */,
+				B21341BB2CC71726001B2943 /* GoogleService-Info.plist */,
+				B21341B02CC6FF1F001B2943 /* Router */,
+				B21341AF2CC6E78A001B2943 /* Resources */,
+				B21341AE2CC6E782001B2943 /* System */,
+				B21341AD2CC6E76E001B2943 /* Networking */,
+				B21341A92CC6E6FA001B2943 /* MVVM */,
 			);
 			path = EcoBikeTestJD;
 			sourceTree = "<group>";
@@ -65,6 +114,80 @@
 				B21341A22CC6E142001B2943 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B21341A92CC6E6FA001B2943 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				B21341AC2CC6E740001B2943 /* View */,
+				B21341AB2CC6E735001B2943 /* ViewModels */,
+				B21341AA2CC6E72A001B2943 /* Models */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		B21341AA2CC6E72A001B2943 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B20E59DE2CC74FAE003F9EC2 /* StationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B21341AB2CC6E735001B2943 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B20E59E62CC763BF003F9EC2 /* StationsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B21341AC2CC6E740001B2943 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B20E59E82CC7EE56003F9EC2 /* ItemsView */,
+				B21341B32CC707EB001B2943 /* LoginView.swift */,
+				B21341B52CC70813001B2943 /* NewUserView.swift */,
+				B21341B72CC70835001B2943 /* HomeBikeListView.swift */,
+				B21341B92CC7085A001B2943 /* DetailBikeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B21341AD2CC6E76E001B2943 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B20E59E02CC75AB5003F9EC2 /* FetchError.swift */,
+				B20E59E22CC75B3F003F9EC2 /* ServiceNetwork.swift */,
+				B20E59E42CC75BA0003F9EC2 /* RequestService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B21341AE2CC6E782001B2943 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				B213419B2CC6E140001B2943 /* EcoBikeTestJDApp.swift */,
+				B213419D2CC6E140001B2943 /* ContentView.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		B21341AF2CC6E78A001B2943 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B21341A12CC6E142001B2943 /* Preview Content */,
+				B213419F2CC6E142001B2943 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B21341B02CC6FF1F001B2943 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B21341B12CC6FFA8001B2943 /* NavigationRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +206,10 @@
 			dependencies = (
 			);
 			name = EcoBikeTestJD;
+			packageProductDependencies = (
+				B20E59D02CC72980003F9EC2 /* FirebaseAnalytics */,
+				B20E59EE2CC80CFF003F9EC2 /* FirebaseAuth */,
+			);
 			productName = EcoBikeTestJD;
 			productReference = B21341982CC6E140001B2943 /* EcoBikeTestJD.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +238,9 @@
 				Base,
 			);
 			mainGroup = B213418F2CC6E140001B2943;
+			packageReferences = (
+				B20E59CF2CC72980003F9EC2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = B21341992CC6E140001B2943 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +257,7 @@
 			files = (
 				B21341A32CC6E142001B2943 /* Preview Assets.xcassets in Resources */,
 				B21341A02CC6E142001B2943 /* Assets.xcassets in Resources */,
+				B21341BC2CC71726001B2943 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +268,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B20E59E32CC75B3F003F9EC2 /* ServiceNetwork.swift in Sources */,
+				B20E59EA2CC7EE8B003F9EC2 /* StationItemView.swift in Sources */,
+				B20E59DF2CC74FAE003F9EC2 /* StationModel.swift in Sources */,
 				B213419E2CC6E140001B2943 /* ContentView.swift in Sources */,
+				B20E59E72CC763BF003F9EC2 /* StationsViewModel.swift in Sources */,
+				B20E59E52CC75BA0003F9EC2 /* RequestService.swift in Sources */,
 				B213419C2CC6E140001B2943 /* EcoBikeTestJDApp.swift in Sources */,
+				B20E59EC2CC7F13C003F9EC2 /* MapView.swift in Sources */,
+				B21341B82CC70835001B2943 /* HomeBikeListView.swift in Sources */,
+				B21341B62CC70813001B2943 /* NewUserView.swift in Sources */,
+				B21341BA2CC7085A001B2943 /* DetailBikeView.swift in Sources */,
+				B20E59E12CC75AB5003F9EC2 /* FetchError.swift in Sources */,
+				B21341B42CC707EB001B2943 /* LoginView.swift in Sources */,
+				B21341B22CC6FFA8001B2943 /* NavigationRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,15 +414,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EcoBikeTestJD/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"EcoBikeTestJD/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 4TH64QU75M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = EcoBikeJD;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,15 +445,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EcoBikeTestJD/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"EcoBikeTestJD/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 4TH64QU75M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = EcoBikeJD;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +491,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B20E59CF2CC72980003F9EC2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B20E59D02CC72980003F9EC2 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B20E59CF2CC72980003F9EC2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		B20E59EE2CC80CFF003F9EC2 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B20E59CF2CC72980003F9EC2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B21341902CC6E140001B2943 /* Project object */;
 }
